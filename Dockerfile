@@ -1,0 +1,7 @@
+FROM node:6.11.2
+MAINTAINER fjferrer
+
+ENV SERVERLESS_VERSION=1.17.0
+ENV AWS_SDK_VERSION=2.94.0
+
+RUN npm install -g serverless@${SERVERLESS_VERSION} aws-sdk@${AWS_SDK_VERSION}
