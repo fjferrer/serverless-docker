@@ -5,6 +5,7 @@ ENV SERVERLESS_VERSION=1.17.0
 
 RUN npm install -g serverless@${SERVERLESS_VERSION}
 
-RUN apk add --no-cache mysql-client
-
-RUN apk add --no-cache aws-cli
+RUN apk --no-cache update && \
+    apk --no-cache add mysql-client python py-pip py-setuptools ca-certificates curl groff less && \
+    pip --no-cache-dir install awscli && \
+    rm -rf /var/cache/apk/*
