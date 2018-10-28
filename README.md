@@ -1,2 +1,5 @@
 # serverless-docker
 Docker files for automated serverless
+
+Version 2.0:
+- This version is based on Node 8.12 LTS and Serverless 1.32.0 or latest
