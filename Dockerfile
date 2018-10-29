@@ -1,7 +1,7 @@
-FROM node:6.11.2-alpine
+FROM node:8.12.0-alpine
 MAINTAINER fjferrer
 
-ENV SERVERLESS_VERSION=1.22.0
+ENV SERVERLESS_VERSION=1.32.0
 
 RUN npm install -g serverless@${SERVERLESS_VERSION}
 
