@@ -1,4 +1,4 @@
-FROM node:8.12.0-alpine
+FROM node:10.18.1-alpine
 MAINTAINER fjferrer
 
 ENV SERVERLESS_VERSION=1.52.0
