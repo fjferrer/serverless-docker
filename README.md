@@ -1,6 +1,9 @@
 # serverless-docker
 Docker files for automated serverless
 
+Version 3.2.0:
+- This version is based on Node 12.20 LTS and Serverless 1.83.0
+
 Version 3.1.0:
 - This version is based on Node 12.16 LTS and Serverless 1.65.0
 
